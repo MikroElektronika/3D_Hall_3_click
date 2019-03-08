@@ -1,0 +1,35 @@
+0	1	mikroCARM.exe -MSF -DBG -pMK64FN1M0XXX12 -RA -BIN -DL -SSA -O11111114 -fo120 -N"C:\Users\Software\Desktop\3D Hall 3 Click Project\3D Hall 3 Click 4\example\c\ARM\KINETIS\KINETIS_I2C\Click_3D_Hall_3_KINETIS.mcpar" -SP"C:\Users\Public\Documents\Mikroelektronika\mikroC PRO for ARM\Defs\" -SP"C:\Users\Public\Documents\Mikroelektronika\mikroC PRO for ARM\Uses\NXP M4\" -SP"C:\Users\Software\Desktop\3D Hall 3 Click Project\3D Hall 3 Click 4\example\c\ARM\KINETIS\KINETIS_I2C\" -SP"C:\Users\Software\Desktop\3D Hall 3 Click Project\3D Hall 3 Click 4\library\HAL\" -SP"C:\Users\Software\Desktop\3D Hall 3 Click Project\3D Hall 3 Click 4\library\" -SP"C:\Users\Public\Documents\Mikroelektronika\mikroC PRO for ARM\Packages\mikroBUS Board Definition API\Uses\" -IP"C:\Users\Public\Documents\Mikroelektronika\mikroC PRO for ARM\Uses\NXP M4\" -IP"C:\Users\Software\Desktop\3D Hall 3 Click Project\3D Hall 3 Click 4\example\c\ARM\KINETIS\KINETIS_I2C\" -IP"C:\Users\Software\Desktop\3D Hall 3 Click Project\3D Hall 3 Click 4\library\" -IP"C:\Users\Software\Desktop\3D Hall 3 Click Project\3D Hall 3 Click 4\library\HAL\" -IP"C:\Users\Public\Documents\Mikroelektronika\mikroC PRO for ARM\Packages\mikroBUS Board Definition API\Uses\" "Click_3D_Hall_3_KINETIS.c" "__c3dhall3_driver.c" "__Lib_Math.emcl" "__Lib_MathDouble.emcl" "__Lib_Delays.emcl" "__Lib_System.emcl" "__Lib_GPIO_MK64_Defs.emcl" "__Lib_GPIO.emcl" "__Lib_CString.emcl" "__Lib_Conversions.emcl" "__Lib_I2C_012.emcl" "__Lib_SPI_012.emcl" "__Lib_UART_012345.emcl" "docking_station_HEXIWEAR.emcl" "Click_3D_Hall_3.pld"	 
+diagnostics: 0	122	Compilation Started	MK64FN1M0XXX12.c
+diagnostics: 71921	123	Compiled Successfully	MK64FN1M0XXX12.c
+diagnostics: 0	122	Compilation Started	__Lib_Delays.c
+diagnostics: 119	123	Compiled Successfully	__Lib_Delays.c
+hint: 66	1164	Variable 'cycles_div_by_10' has been eliminated by optimizer	__Lib_Delays.c
+hint: 88	1164	Variable 'NumberOfCyc' has been eliminated by optimizer	__Lib_Delays.c
+hint: 105	1164	Variable 'NumberOfCyc' has been eliminated by optimizer	__Lib_Delays.c
+diagnostics: 0	122	Compilation Started	__lib_gpio.h
+diagnostics: 814	123	Compiled Successfully	__Lib_GPIO_MK64_Defs.c
+diagnostics: 0	122	Compilation Started	stdint.h
+warning: 35	1505	Suspicious pointer conversion	__ds_hexi_spi.c
+warning: 41	1505	Suspicious pointer conversion	__ds_hexi_spi.c
+warning: 47	1505	Suspicious pointer conversion	__ds_hexi_spi.c
+diagnostics: 348	123	Compiled Successfully	docking_station_HEXIWEAR.c
+diagnostics: 0	122	Compilation Started	stdint.h
+error: 48	324	Undeclared identifier 'c3dhall3_i2cDriverInit' in expression	Click_3D_Hall_3_KINETIS.c
+error: 48	317	Operator '' is not applicable to these operands ''	Click_3D_Hall_3_KINETIS.c
+error: 48	402	; expected, but ')' found	Click_3D_Hall_3_KINETIS.c
+error: 48	424	'}' expected ';' found	Click_3D_Hall_3_KINETIS.c
+error: 59	324	Undeclared identifier 'c3dhall3_readXYZ' in expression	Click_3D_Hall_3_KINETIS.c
+diagnostics: 0	122	Compilation Started	stdint.h
+error: 23	315	Invalid expression	__c3dhall3_driver.c
+error: 23	402	; expected, but '0x' found	__c3dhall3_driver.c
+error: 23	371	Specifier needed	__c3dhall3_driver.c
+error: 23	396	Invalid declarator expected'(' or identifier	__c3dhall3_driver.c
+error: 24	315	Invalid expression	__c3dhall3_driver.c
+error: 24	402	; expected, but '0x' found	__c3dhall3_driver.c
+error: 24	371	Specifier needed	__c3dhall3_driver.c
+error: 24	396	Invalid declarator expected'(' or identifier	__c3dhall3_driver.c
+error: 24	393	'' Identifier redefined	__c3dhall3_driver.c
+error: 25	315	Invalid expression	__c3dhall3_driver.c
+error: 25	402	; expected, but '0x' found	__c3dhall3_driver.c
+error: 25	312	Internal error ''	__c3dhall3_driver.c
+error: 0	102	Finished (with errors): 09 Nov 2018, 14:09:35	Click_3D_Hall_3_KINETIS.mcpar

@@ -1,0 +1,20 @@
+0	1	mikroCFT90x.exe -MSF -DBG -p FT900 -BIN -DL -SSA -O11111114 -fo100 -N"C:\Users\Software\Desktop\3D Hall 3 Click Project\3D Hall 3 Click 4\example\c\FT90x\I2C\Click_3D_Hall_3_FT90x.mcpf9" -SP"C:\Users\Public\Documents\Mikroelektronika\mikroC PRO for FT90x\Defs\" -SP"C:\Users\Public\Documents\Mikroelektronika\mikroC PRO for FT90x\Uses\" -SP"C:\Users\Software\Desktop\3D Hall 3 Click Project\3D Hall 3 Click 4\example\c\FT90x\I2C\" -SP"C:\Users\Software\Desktop\3D Hall 3 Click Project\3D Hall 3 Click 4\library\HAL\" -SP"C:\Users\Software\Desktop\3D Hall 3 Click Project\3D Hall 3 Click 4\library\" -SP"C:\Users\Public\Documents\Mikroelektronika\mikroC PRO for FT90x\Packages\mikroBUS Board Definition API\Uses\" -IP"C:\Users\Public\Documents\Mikroelektronika\mikroC PRO for FT90x\Uses\" -IP"C:\Users\Software\Desktop\3D Hall 3 Click Project\3D Hall 3 Click 4\example\c\FT90x\I2C\" -IP"C:\Users\Software\Desktop\3D Hall 3 Click Project\3D Hall 3 Click 4\library\" -IP"C:\Users\Software\Desktop\3D Hall 3 Click Project\3D Hall 3 Click 4\library\HAL\" -IP"C:\Users\Public\Documents\Mikroelektronika\mikroC PRO for FT90x\Packages\mikroBUS Board Definition API\Uses\" "Click_3D_Hall_3_FT90x.c" "__c3dhall3_Driver.c" "__Lib_Delays.emcl" "__Lib_System.emcl" "__Lib_Math.emcl" "__Lib_MathDouble.emcl" "__Lib_GPIO.emcl" "__Lib_CString.emcl" "__Lib_Conversions.emcl" "__Lib_I2C.emcl" "__Lib_UART.emcl" "__Lib_SPI.emcl" "easyft90x_v7_FT900.emcl" "Click_3D_Hall_3.pld"	 
+diagnostics: 0	122	Compilation Started	stdint.h
+diagnostics: 84	123	Compiled Successfully	Click_3D_Hall_3_FT90x.c
+diagnostics: 0	122	Compilation Started	stdint.h
+hint: 142	1163	Variable 'spi_auxBufferOut' has been declared, but not used	__c3dhall3_Driver.c
+hint: 143	1163	Variable 'i' has been declared, but not used	__c3dhall3_Driver.c
+diagnostics: 368	123	Compiled Successfully	__c3dhall3_Driver.c
+warning: 268	1512	variable 'OUT_XYZ_1' might not have been initialized	__c3dhall3_Driver.c
+hint: 323	1164	Variable 'tmp' has been eliminated by optimizer	__c3dhall3_Driver.c
+hint: 34	1164	Variable 'tmp' has been eliminated by optimizer	__c3dhall3_Driver.c
+hint: 89	1164	Variable 'tmp' has been eliminated by optimizer	__c3dhall3_Driver.c
+hint: 347	1164	Variable 'intPinStatus' has been eliminated by optimizer	__c3dhall3_Driver.c
+diagnostics: 0	127	All files Compiled in 78 ms	 
+hint: 0	1144	Used RX: 16 (50%)   Free RX: 16 (50%)	Used RX: 16 (50%)   Free RX: 16 (50%)
+hint: 0	1144	Static RAM (bytes): 417   Dynamic RAM (bytes): 65109	Static RAM (bytes): 417   Dynamic RAM (bytes): 65109
+hint: 0	1144	Used ROM (bytes): 14335 (5%)  Free ROM (bytes): 247809 (95%)	Used ROM (bytes): 14335 (5%)  Free ROM (bytes): 247809 (95%)
+diagnostics: 0	125	Project Linked Successfully	Click_3D_Hall_3_FT90x.mcpf9
+diagnostics: 0	128	Linked in 124 ms	 
+diagnostics: 0	129	Project 'Click_3D_Hall_3_FT90x.mcpf9' completed: 280 ms	 
+diagnostics: 0	103	Finished successfully: 09 Nov 2018, 14:45:02	Click_3D_Hall_3_FT90x.mcpf9
